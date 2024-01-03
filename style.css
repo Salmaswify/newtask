@@ -1,0 +1,1479 @@
+/* body{
+
+
+    height: 6000px;
+} */
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+/* poster1 */
+
+
+
+.poster1{
+
+height: 500px;
+
+
+/* background-color: rgb(210, 28, 28); */
+
+
+
+
+}
+
+
+ .header1{
+height: 30px;
+display: flex;
+ justify-content: space-between; 
+background-color:rgba(7, 5, 5, 0.886);
+padding-top: 5px;
+ }
+
+ .butt1{
+
+     background-color: green; 
+    height: 20px;
+    width: 80px;
+     color: white;
+     font-size: 10px; 
+     border-radius: 5px;
+     margin-right: 10px;
+    border: none;
+}
+
+.header1 a {
+
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.header1 h5{
+
+color: white;
+/* margin-left: 10px; */
+font-size: 15px;
+}
+
+.headding{
+
+display: flex;
+    
+}
+
+
+.header2{
+height: 60px;
+display: flex;
+   justify-content: space-around;    
+
+background-color: rgba(7, 5, 5, 0.977);
+}
+
+
+
+.hh{
+color: aqua;
+margin-top: 10px;
+
+}
+.hhh{
+color: white;
+font-size: 5px;
+margin-left: 20px;
+
+
+}
+.link1 a{
+
+color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+
+.link1{
+
+margin-top: 20px;
+
+}
+
+
+@media  only screen and (min-width:300px) and (max-width:576px){
+
+    .header2{
+        height: 40px;
+    background-color:black;
+     display: flex;
+justify-content:space-around ;
+    font-size: 10px;
+    
+    }
+    
+    
+     .link1 a{
+    
+     color: white;
+    text-decoration: none;
+     padding: 10px; 
+    font-size: 10px;
+ 
+    }
+
+
+    .link1{
+
+ /* display: flex;
+flex-direction: column;  */
+       margin-top: 10px;  
+    }
+    
+        .hhh{
+color: white;
+font-size: 5px;
+margin-left: 5px;
+
+
+}
+    
+    
+      }
+
+
+  @media  only screen and (min-width:576px) and (max-width:768px){
+
+.header2{
+    height: 40px;
+background-color:black;
+ display: flex;
+justify-content: space-around;
+font-size: 10px;
+
+}
+.link1{
+
+    margin-top: 10px;
+}
+
+
+  }
+
+
+
+
+
+/* header3 */
+
+.header3{
+background-image:linear-gradient(to right,rgba(0, 0, 0, 0.912),rgba(8, 29, 29, 0.932)) ; 
+width: 100%;
+height: 420px;
+    
+     
+     display: flex;
+
+ justify-content: space-around;  
+
+}
+
+
+.hhh3{
+
+ margin-top: 100px; 
+
+}
+
+.hhh3 p{
+font-size: 10px;
+    color: grey;
+}
+
+.hhh3 h6{
+    margin-top: 10px; 
+         margin-left: 70px; 
+        color: aqua;
+    
+       }
+
+
+       .hhh3{
+
+        /* color: white; */
+         margin-left: 200px; 
+        }
+
+
+         .hhh3 img{
+            margin-top: 20px;  
+          width:80px ;
+          height: 50px;
+          } 
+.hhh3 a{
+
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.796);
+     padding-bottom: 10px;
+  margin-top: 40px;
+
+}
+
+h6.mn{
+
+padding-top: 10px;
+
+}
+
+.mu img{
+
+    width: 400px;
+    height:410 ;
+}
+
+
+
+@media  only screen and (min-width:300px) and (max-width:576px){
+
+    .header3{
+        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.912),rgba(8, 29, 29, 0.932)) ; 
+        width: 100%;
+        height: 200px;
+            
+             
+        display: flex;
+        justify-content: space-around;
+       
+        
+        }
+    
+    
+    .hhh3{
+
+margin-top: 10px;
+margin-left: 10px;
+    }
+    .hhh3 p{
+margin-left: 20px;
+        color: grey;
+        font-size: 5px;
+    }
+    .hhh3 h6{
+        margin-top: 16px; 
+             margin-left: 20px; 
+            color: aqua;
+        font-size: 4px;
+           }
+    .hhh3 h1{
+font-size: 10px;
+margin-left: 20px;
+color: white;
+    }
+    .mu img{
+
+        height:200px;
+        width: 290px;
+        margin-top: 0px;
+    }
+    
+
+
+    .hhh3 img{
+        margin-top: 20px;  
+      width:40px ;
+      height: 20px;
+      } 
+.hhh3 a{
+font-size: 9px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.796);
+     padding-bottom: 5px;
+  margin-top: 100px;
+
+}
+
+h6.mn{
+font-size: 5px;
+/* padding-top: 1px; */
+margin-left: 45px;
+margin-top: 5px;
+}
+      }
+
+
+  @media  only screen and (min-width:576px) and (max-width:768px){
+
+.header3{
+        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.912),rgba(8, 29, 29, 0.932)) ; 
+        width: 100%;
+        height: 300px;
+            
+             
+        display: flex;
+        justify-content: space-around;
+       
+        
+        }
+    
+    
+    .hhh3{
+
+margin-top: 40px;
+margin-left: 40px;
+    }
+    .hhh3 p{
+margin-left: 20px;
+        color: grey;
+        font-size: 10px;
+    }
+    .hhh3 h6{
+        margin-top: 16px; 
+             margin-left: 20px; 
+            color: aqua;
+        font-size: 9px;
+           }
+    .hhh3 h1{
+font-size: 20px;
+margin-left: 20px;
+color: white;
+
+    }
+    .mu img{
+
+        height:300px;
+        width: 200px;
+        margin-top: 0px;
+    }
+    
+
+
+    .hhh3 img{
+        margin-top: 20px;  
+      width:60px ;
+      height: 40px;
+      } 
+.hhh3 a{
+font-size: 14px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.796);
+     padding-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+h6.mn{
+font-size: 9px;
+/* padding-top: 1px; */
+margin-left: 50px;
+margin-top: 5px;
+}
+      }
+
+
+
+
+    @media  only screen and (min-width:768px) and (max-width:992px){
+
+.header3{
+        background-image:linear-gradient(to right,rgba(0, 0, 0, 0.912),rgba(8, 29, 29, 0.932)) ; 
+        width: 100%;
+        height: 400px;
+            
+             
+        display: flex;
+        justify-content: space-around;
+       
+        
+        }
+    
+    
+    .hhh3{
+
+margin-top: 90px;
+margin-left: 40px;
+    }
+    .hhh3 p{
+margin-left: 20px;
+        color: grey;
+        font-size: 10px;
+    }
+    .hhh3 h6{
+        margin-top: 16px; 
+             margin-left: 20px; 
+            color: aqua;
+        font-size: 9px;
+           }
+    .hhh3 h1{
+font-size: 20px;
+margin-left: 20px;
+color: white;
+
+    }
+    .mu img{
+
+        height:400px;
+        width: 300px;
+        margin-top: 0px;
+    }
+    
+
+
+    .hhh3 img{
+        margin-top: 30px;  
+      width:80px ;
+      height: 60px;
+      } 
+.hhh3 a{
+font-size: 14px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.796);
+     padding-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+h6.mn{
+font-size: 9px;
+/* padding-top: 1px; */
+margin-left: 50px;
+margin-top: 5px;
+}
+
+    }
+        
+   
+
+   
+    @media  only screen and (min-width:992px) and (max-width:1200px){
+
+
+.header3{
+background-image:linear-gradient(to right,rgba(0, 0, 0, 0.912),rgba(8, 29, 29, 0.932)) ; 
+width: 100%;
+height: 420px;
+    
+     
+     display: flex;
+
+ justify-content: space-around;  
+
+}
+
+
+.hhh3{
+
+ margin-top: 100px; 
+
+}
+
+.hhh3 p{
+font-size: 10px;
+    color: grey;
+}
+
+.hhh3 h6{
+    margin-top: 10px; 
+         margin-left: 70px; 
+        color: aqua;
+    
+       }
+
+
+       .hhh3{
+
+        /* color: white; */
+         margin-left: 200px; 
+        }
+
+
+         .hhh3 img{
+            margin-top: 20px;  
+          width:80px ;
+          height: 50px;
+          } 
+.hhh3 a{
+
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.796);
+     padding-bottom: 10px;
+  margin-top: 40px;
+
+}
+
+h6.mn{
+
+padding-top: 10px;
+
+}
+
+.mu img{
+
+    width: 400px;
+    height:410px ;
+}
+
+
+ .hhh3 h1{
+/* font-size: 20px;
+margin-left: 20px; */
+color: white;
+
+    }
+ 
+
+
+
+    
+
+
+/* poster2 */
+
+
+
+.poster2{
+
+height: 400px;
+background-color:black;
+
+display: flex;
+justify-content: center;
+
+}
+
+.divv1{
+
+    margin-top: 70px;
+}
+
+.divv1 h1{
+
+
+color: white;
+
+
+}
+
+.divv1 p{
+font-size: 10px;
+    color: gray;
+}
+
+
+.divv1 a button{
+
+    color: white;
+    background-color: aqua;
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    width: 70px;
+}
+
+
+
+
+
+.divv2 p{
+
+font-size: 13px
+}
+
+
+.divv2{
+    margin: 50px 30px  ;
+    background-color: rgba(128, 128, 128, 0.095);
+height: 130px;
+width: 200px;
+
+
+}
+
+.divv2 div{
+
+ margin-top: 50px; 
+ background-image: linear-gradient(to bottom ,black ,rgba(8, 29, 29, 0.932));
+/* background-color:rgba(8, 29, 29, 0.932) ; */
+height: 130px;
+width: 200px;
+
+}
+
+
+
+  
+
+
+
+.divv2 h4{
+    color: white;
+
+
+}
+
+
+.divv2 p{
+
+    color: grey;
+}
+
+
+
+.divv3{
+
+    margin-top: 50px ;
+    background-image: linear-gradient(to bottom ,black ,rgba(8, 29, 29, 0.932));
+
+    /* background-color:rgba(0, 0, 0, 0.472) ; */
+height: 130px;
+width: 200px;
+}
+
+
+.divv3 div{
+
+    margin-top: 30px;
+    
+    background-color:rgba(128, 128, 128, 0.095);
+    height: 130px;
+    width: 200px;
+    }
+
+
+    .divv3 h4{
+        color: white;
+    
+    }
+    
+    
+    .divv3 p{
+    
+        color: grey;
+    }
+
+
+
+
+    /* poster3 */
+
+
+.poster3{
+
+
+    height: 400px;
+background-color: black;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+.para{
+
+font-size: 10px;
+color: gray;
+}
+
+.divv4{
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.headd{
+
+color: white;
+
+}
+
+.head3{
+
+color: aqua;
+
+}
+
+.heaad{
+color: white;
+
+}
+.hhed{
+
+margin-top: 90px;
+
+}
+
+.im{
+
+    margin-top: 40px;
+}
+
+
+
+
+
+/* poster4 */
+
+.poster4{
+
+ /* background-image: linear-gradient(to left,black,rgba(8, 29, 29, 0.932));   */
+ 
+
+height: 300px;
+
+}
+
+
+.divv5{
+
+    display: flex;
+       /* justify-content: space-around; */
+    position: absolute;
+top: 1310px;
+z-index: 4;
+left: 30px;
+
+}
+
+.divv5 div{
+
+padding: 80px;
+
+}
+
+
+  .photo{
+ opacity: 0.9; 
+   position: relative;
+}  
+  
+/* .last{
+ position: absolute; 
+z-index: 2; 
+
+right: 100px;
+
+} */
+
+
+.divv5 h1{
+
+color: aqua;
+font-size: 40px;
+}
+
+.divv5 p{
+
+    color: white;
+}
+
+/* poster5 */
+
+.poster5{
+
+height: 400px;
+background-color: rgb(11, 11, 12);
+display: flex;
+justify-content: center;
+
+
+}
+
+.divv6{
+
+    margin-top: 70px;
+}
+
+
+.as{
+margin-top: 20px;
+
+}
+
+
+.poster5 div h5{
+
+color: aqua;
+
+font-size: 8px;
+
+}
+
+
+.poster5 div h1{
+
+    color: white;
+}
+
+.pr1{
+font-size: 10px;
+    color: grey;
+}
+
+.pr2{
+color: white;
+font-size: 10px;
+
+}
+
+ .markk{
+
+color: aqua;
+padding-right: 5px;
+
+} 
+
+
+
+/* poster6 */
+
+.poster6{
+    height: 200px;
+  
+}
+
+
+.photo1{
+
+position: relative;
+opacity: 0.9;
+}
+
+.photo2{
+
+position: absolute;
+top: 60px;
+margin-left: 150px;
+}
+
+
+.photo2 img{
+
+margin-right: 100px;
+
+}
+
+
+
+/* poster7 */
+
+.poster7{
+height: 400px;
+background-color:black;
+display: flex;
+justify-content: center;
+
+}
+
+
+.poster7 div{
+    margin-top: 50px;
+
+}
+
+
+
+.hg{
+
+color: rgb(14, 12, 12);
+ background-color: aqua;  
+ height: 10px;
+border-radius: 50%;
+
+
+}
+
+div h5{
+
+    color: aqua;
+    font-size: 7px;
+
+}
+
+div h1{
+color: white;
+
+
+}
+
+.vv{
+
+    color: white;
+    font-size: 10px;
+   margin: 10px;
+
+
+}
+
+
+
+/* poster8 */
+.poster8{
+
+    height: 200px;
+    opacity: 0.9;
+   
+}
+
+
+.pho{
+
+    position: relative;
+}
+
+
+.good{
+position: absolute;
+z-index: 4;
+left: 300px;
+margin-top: 50px;
+
+}
+
+
+.good h5{
+
+    margin-left: 200px;
+}
+
+
+.good h1{
+
+    margin-left: 120px;
+}
+
+.good p{
+
+    margin-left: 30px;
+}
+
+
+p.dd{
+margin-left: 100px;
+color:grey;
+font-size: 9px;
+
+}
+
+
+/* poster9 */
+
+.poster9{
+
+
+
+height: 400px;
+opacity: 0.9;
+
+}
+
+
+
+
+.divv9{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2850px;
+    right: 200px;
+    }
+
+
+
+.divv9 div{
+   
+
+ background-color: rgb(19, 22, 20);
+ margin-right: 20px;
+    
+height: 150px;
+width: 250px;
+} 
+
+
+
+.picture1{
+
+    display: flex;
+}
+
+
+.picture2{
+
+    display: flex;
+}
+
+.ppp{
+
+    color: grey;
+    font-size: 10px;
+}
+
+.mar{
+
+    margin-left: 10px;
+}
+
+
+.mar h4{
+margin-top: 10px;
+    color: white;
+}
+
+.mar h6{
+
+    color:aqua;
+
+
+}
+ .divv10{
+
+    display: flex;
+    justify-content: center;
+   position: absolute;
+   top: 3020px; 
+   right: 200px;
+
+  
+}
+
+
+.divv10 div{
+
+    background-color:rgb(19, 22, 20);
+    margin-right: 20px;
+    height: 150px;
+    width: 250px;
+}
+
+
+
+.bigphoto{
+
+position: relative;
+
+} 
+
+
+/* poster10 */
+
+.poster10{
+
+
+height: 600px;
+background-color:black;
+
+}
+
+
+.kkk h5{
+
+color: aqua;
+font-size: 10px;
+padding-top: 60px;
+margin-left: 170px;
+}
+
+.kkk h1{
+
+color: white;
+margin-left: 120px;
+}
+
+.kkk p{
+
+    color: grey;
+    font-size: 5px;
+}
+
+.uu{
+
+
+    margin-left: 100px;
+}
+
+   .oo{
+
+margin-left: 120px;
+
+   }
+
+
+.divv12{
+
+margin-left: 350px;
+
+}
+
+
+
+
+.poster11{
+
+
+    height: 400px;
+
+}
+ 
+/* poster11 */
+
+.ww{
+
+    color: aqua;
+    font-size: 9px;
+}
+
+.ss{
+
+color: white;
+}
+
+.tt{
+
+color: white;
+background-color: aqua;
+height: 40px;
+width: 200px;
+border: none;
+}
+
+.hwa{
+
+background-color: rgba(26, 26, 31, 0.561);
+height: 170px;
+width: 300px;
+
+}
+
+.pnn{
+
+    position: relative;
+}
+
+.hee{
+
+position: absolute;
+top: 3900px;
+left: 300px;
+}
+
+.hee p{
+
+    color: grey;
+    font-size: 10px;
+}
+
+
+.hwa{
+
+position: absolute;
+top: 3900px;
+left: 550px;
+}
+
+.hwa p{
+color: grey;
+font-size: 10px;
+padding-left: 10px;
+
+}
+
+/* .fff{
+
+    display: flex;
+    justify-content: space-around;
+} */
+
+.divv30{
+
+    display: flex;
+}
+
+.divv30 img{
+
+    border-radius: 50%;
+     padding: 10px; 
+}
+
+.pnn img{
+opacity: 0.9;
+
+}
+
+.fad h4{
+color: white;
+
+}
+
+.fad h6{
+
+    color: aqua;
+}
+
+.ded{
+
+margin-left: 90px;
+margin-top: 30px;
+
+}
+
+.fad{
+margin-top: 20px;
+
+}
+
+
+/* poster12 */
+
+.poster12{
+
+height: 500px;
+background-color: black;
+
+}
+
+.divv40{
+
+display: flex;
+justify-content:center;
+
+}
+
+
+.divv40 div{
+
+    padding: 0px 10px;
+}
+
+.food{
+
+display: flex;
+justify-content: center;
+}
+
+.food div{
+display: flex;
+padding-left: 1px;
+
+
+}
+
+.poster12 h5{
+color: aqua;
+font-size: 10px;
+margin-left: 100px;
+padding-top: 50px;
+
+}
+
+.poster12 h1{
+
+    color: white;
+    margin-left: 40px;
+}
+
+.poster12 p{
+
+color: grey;
+font-size: 10px;
+
+
+}
+
+.we{
+
+    margin-left: 400px;
+    
+}
+
+.df{
+
+margin-left: 60px;
+
+}
+
+.ja{
+
+    color: aqua;
+}
+
+.food p{
+
+    color: white;
+}
+
+
+
+
+
+
+
+.poster13{
+
+height: 550px;
+background-color: rgba(0, 0, 0, 0.925);
+
+}
+
+.photooo{
+
+    opacity: 0.2;
+    position: relative;
+}
+
+.sub{
+width: 240px;
+height: 30px;
+color: white;
+background-color: aqua;
+border: none;
+}
+
+form{
+color:aqua;
+    border: 1px solid aqua;
+    height: 340px;
+    width: 300px;
+    padding: 20px;
+    /* position: absolute;
+    top: 4800px;
+} */
+
+margin-right: 10px;
+}
+.inp{
+   background-color: rgba(0, 0, 0, 0.452);
+ border: 1px solid aqua;
+outline: none; 
+
+}
+
+
+
+
+
+
+
+.divv50{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+position: absolute;  
+
+ top: 4800px;     
+ left: 260px;
+ 
+}
+
+.divv90 h4{
+    color: aqua;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.divv90 h1{
+
+    font-size: 40px;
+}
+
+.divv90 p{
+font-size: 15px;
+color: grey;
+}
+
+.divv55{
+
+display: flex;
+/* justify-content: space-around; */
+/* margin-top: 20px; */
+}
+
+.divv55 h5{
+
+    font-size: 15px;
+    color: white;
+}
+
+.divv55 p{
+
+    color: aqua;
+    font-size: 13px;
+}
+
+.divv55 img{
+
+    padding-right: 10px;
+}
+
+
+.poster14{
+
+height: 400px;
+    background-image: linear-gradient(to top ,rgba(0, 0, 0, 0.907) ,rgba(9, 34, 34, 0.932));
+
+
+}
+
+
+
+.poster14 h1{
+padding-top: 70px;
+font-size: 30px;
+color: aqua;
+}
+
+
+
+
+.poster14 h6{
+font-size: 7px;
+color: white;
+margin-bottom: 50px;
+}
+
+.poster14 p{
+
+    color: white;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+.links a{
+
+
+    color: aqua;
+    text-decoration: none;
+   
+    padding: 10px;
+ 
+}
+
+
+.iicon svg{
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 50px;
+}
+
+.poster14 .opp{
+
+    color: grey;
+}
